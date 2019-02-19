@@ -18,7 +18,7 @@ limitations under the License."""
 
 if __name__ == '__main__':
 
-    func = ['dory', 'shoal', 'flipper']
+    funcs = ['doryvip', 'shoalvip', 'flippervip']
     locations = {
         'JNG': {
             'domain': 'skytap-dev.net',
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     }
 
     fqdns = []
-    for F in func:
+    for F in funcs:
         for L, subL in locations.iteritems():
             for E, subE in subL['environments'].iteritems():
                for R, subR in subE['regions'].iteritems():
